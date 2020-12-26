@@ -1,0 +1,13 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Edit Amenity{% endblock %}
+
+{% block body %}
+    <h1>Edit Amenity</h1>
+
+    {{ include('amenity/_form.html.twig', {'button_label': 'Update'}) }}
+
+    <a href="{{ path('amenity_index') }}">back to list</a>
+
+    {{ include('amenity/_delete_form.html.twig') }}
+{% endblock %}

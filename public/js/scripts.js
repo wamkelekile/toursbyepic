@@ -672,7 +672,7 @@ function  initEasybook() {
             return a;
         }
     });
-    if ($(".fixed-bar").outerHeight(true) < $(".post-container").outerHeight(true)) {
+    if ($(".fixed-bar").outerHeight(true) < $(".article-container").outerHeight(true)) {
         $(".fixed-bar").addClass("fixbar-action");
         $(".fixbar-action").scrollToFixed({
             minWidth: 1064,
