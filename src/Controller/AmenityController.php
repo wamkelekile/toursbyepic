@@ -22,8 +22,7 @@ class AmenityController extends AbstractController
     public function index(AmenityRepository $amenityRepository, ArticleRepository $articleRepository): Response
     {
         return $this->render('amenity/index.html.twig', [
-            'amenities' => $amenityRepository->findAll(),
-            'articles' => $articleRepository->findAll()
+            'amenities' => $amenityRepository->findAll()
         ]);
     }
 

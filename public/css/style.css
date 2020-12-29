@@ -5576,7 +5576,7 @@ article.post-article .list-single-main-item {
 	top:2px;
 	margin-left:20px;
 }
-.gallery-items.mr-bot {
+.gallery-items.mr-bot, .listing-item-container.mr-bot {
 	margin-bottom:40px;
 }
 .grid-item-holder  , .gallery-items{

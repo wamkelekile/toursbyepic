@@ -1087,98 +1087,112 @@
       <NotNull>1</NotNull>
       <SequenceIdentity>null</SequenceIdentity>
     </column>
-    <column id="345" parent="339" name="name">
+    <column id="345" parent="339" name="destination_id">
       <Position>2</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="346" parent="339" name="name">
+      <Position>3</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="346" parent="339" name="description">
-      <Position>3</Position>
+    <column id="347" parent="339" name="description">
+      <Position>4</Position>
       <DataType>longtext|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <key id="347" parent="339" name="PRIMARY">
+    <index id="348" parent="339" name="IDX_AB607963816C6140">
+      <ColNames>destination_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="349" parent="339" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="348" parent="340" name="id">
+    <foreign-key id="350" parent="339" name="FK_AB607963816C6140">
+      <ColNames>destination_id</ColNames>
+      <RefTableName>destination</RefTableName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="351" parent="340" name="id">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>null</SequenceIdentity>
     </column>
-    <column id="349" parent="340" name="title">
+    <column id="352" parent="340" name="title">
       <Position>2</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="350" parent="340" name="body">
+    <column id="353" parent="340" name="body">
       <Position>3</Position>
       <DataType>longtext|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <key id="351" parent="340" name="PRIMARY">
+    <key id="354" parent="340" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="352" parent="341" name="id">
+    <column id="355" parent="341" name="id">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>null</SequenceIdentity>
     </column>
-    <column id="353" parent="341" name="name">
+    <column id="356" parent="341" name="name">
       <Position>2</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="354" parent="341" name="description">
+    <column id="357" parent="341" name="description">
       <Position>3</Position>
       <DataType>longtext|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <key id="355" parent="341" name="PRIMARY">
+    <key id="358" parent="341" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="356" parent="342" name="id">
+    <column id="359" parent="342" name="id">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>null</SequenceIdentity>
     </column>
-    <column id="357" parent="342" name="name">
+    <column id="360" parent="342" name="name">
       <Position>2</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="358" parent="342" name="description">
+    <column id="361" parent="342" name="description">
       <Position>3</Position>
       <DataType>longtext|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <key id="359" parent="342" name="PRIMARY">
+    <key id="362" parent="342" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="360" parent="343" name="version">
+    <column id="363" parent="343" name="version">
       <Position>1</Position>
       <DataType>varchar(191)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="361" parent="343" name="executed_at">
+    <column id="364" parent="343" name="executed_at">
       <Position>2</Position>
       <DataType>datetime|0s</DataType>
     </column>
-    <column id="362" parent="343" name="execution_time">
+    <column id="365" parent="343" name="execution_time">
       <Position>3</Position>
       <DataType>int(11)|0s</DataType>
     </column>
-    <key id="363" parent="343" name="PRIMARY">
+    <key id="366" parent="343" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>version</ColNames>
       <Primary>1</Primary>

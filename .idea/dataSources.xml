@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="epictours@localhost" uuid="3cc69382-0076-4506-b820-d3f17d091d73">
+    <data-source source="LOCAL" name="epictours@localhost" uuid="c1e27d1c-8620-47ab-a860-b8512b42af60">
       <driver-ref>mariadb</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.mariadb.jdbc.Driver</jdbc-driver>

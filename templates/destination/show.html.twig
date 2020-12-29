@@ -22,6 +22,8 @@
         </tbody>
     </table>
 
+    {{ dump(destination.amenities[1]) }}
+
     <a href="{{ path('destination_index') }}">back to list</a>
 
     <a href="{{ path('destination_edit', {'id': destination.id}) }}">edit</a>
