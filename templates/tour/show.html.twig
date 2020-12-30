@@ -138,10 +138,9 @@
                                 <!--   list-single-main-item -->
                                 <div class="list-single-main-item fl-wrap">
                                     <div class="list-single-main-item-title fl-wrap">
-                                        <h3>About Hotel </h3>
+                                        <h3>Overview </h3>
                                     </div>
                                     <p>{{ tour.description }}</p>
-                                    <a href="https://vimeo.com/70851162" class="btn flat-btn color-bg big-btn float-btn image-popup">Video Presentation <i class="fal fa-play"></i></a>
                                 </div>
                                 <!--   list-single-main-item end -->
                                 <!--   list-single-main-item -->
@@ -149,7 +148,7 @@
                                     <div class="list-single-main-item-title fl-wrap">
                                         <h3>Destinations</h3>
                                     </div>
-                                    <div class="listing-features fl-wrap">
+                                    <div class="listing-features two-column fl-wrap">
                                         <ul>
                                             {% for destination in tour.destinations %}
                                             <li><i class="fal fa-map-marker-alt"></i> {{ destination.name }}</li>
@@ -163,10 +162,10 @@
                                     <div class="list-single-main-item-title fl-wrap">
                                         <h3>Amenities</h3>
                                     </div>
-                                    <div class="listing-features fl-wrap">
+                                    <div class="listing-features two-column fl-wrap">
                                         <ul>
                                             {% for amenity in tour.amenities %}
-                                                <li><i class="fal fa-map-marker-alt"></i> {{ amenity.name }}</li>
+                                                <li><i class="fal fa-campground"></i> {{ amenity.name }}</li>
                                             {% endfor %}
                                         </ul>
                                     </div>
@@ -189,18 +188,18 @@
                                 <!--   list-single-main-item end -->
                                 <!-- accordion-->
                                 <div class="accordion mar-top">
-                                    <a class="toggle act-accordion" href="#"> Details option   <span></span></a>
-                                    <div class="accordion-inner visible">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in pulvinar neque. Nulla finibus lobortis pulvinar. Donec a consectetur nulla. Nulla posuere sapien vitae lectus suscipit, et pulvinar nisi tincidunt. Aliquam erat volutpat. Curabitur convallis fringilla diam sed aliquam. Sed tempor iaculis massa faucibus feugiat. In fermentum facilisis massa, a consequat purus viverra.</p>
+                                    {% for key, day in tour.days %}
+                                    <a class="toggle {{ key == 0 ? 'act-accordion':'' }}" href="#">Day {{ key + 1 }}: {{ day.title}}  <span></span></a>
+                                    <div class="accordion-inner {{ key == 0 ? 'visible':'' }}">
+                                        <p>{{ day.description }}</p>
+                                        <div class="listing-features one-column fl-wrap">
+                                            <ul>
+                                                <li><i class="fal fa-map-marker-alt"></i> {{ day.destination.name }}</li>
+                                                <li><i class="fal fa-campground"></i> {{ day.amenity.name }}</li>
+                                            </ul>
+                                        </div>
                                     </div>
-                                    <a class="toggle" href="#"> Details option 2  <span></span></a>
-                                    <div class="accordion-inner">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in pulvinar neque. Nulla finibus lobortis pulvinar. Donec a consectetur nulla. Nulla posuere sapien vitae lectus suscipit, et pulvinar nisi tincidunt. Aliquam erat volutpat. Curabitur convallis fringilla diam sed aliquam. Sed tempor iaculis massa faucibus feugiat. In fermentum facilisis massa, a consequat purus viverra.</p>
-                                    </div>
-                                    <a class="toggle" href="#"> Details option 3  <span></span></a>
-                                    <div class="accordion-inner">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in pulvinar neque. Nulla finibus lobortis pulvinar. Donec a consectetur nulla. Nulla posuere sapien vitae lectus suscipit, et pulvinar nisi tincidunt. Aliquam erat volutpat. Curabitur convallis fringilla diam sed aliquam. Sed tempor iaculis massa faucibus feugiat. In fermentum facilisis massa, a consequat purus viverra.</p>
-                                    </div>
+                                    {% endfor %}
                                 </div>
                                 <!-- accordion end -->
                                 <!--   list-single-main-item -->
@@ -466,7 +465,7 @@
                                     <div class="box-widget">
                                         <div class="box-widget-content">
                                             <div class="box-widget-item-header">
-                                                <h3> Book This Hotel</h3>
+                                                <h3> Book This Tour</h3>
                                             </div>
                                             <form name="bookFormCalc"   class="book-form custom-form">
                                                 <fieldset>

@@ -102,3 +102,10 @@ section.parallax-section .bg, .list-single-hero .bg, .hero-parallax .bg {
     margin: 15px 20px 15px 0;
     min-width: 85px;
 }
+.one-column li {
+    width: 100%;
+}
+
+.two-column li {
+    width: 50%;
+}

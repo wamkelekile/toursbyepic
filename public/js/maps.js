@@ -12,16 +12,16 @@
 	    //  Map Infoboxes ------------------
         var locations = [
             [locationData('listing-single2.html', 'images/gal/8.jpg', 'Premium Plaza Hotel', "1327 Intervale Ave, Bronx, NY, USA", "$ 320", "5"), 40.72956781, -73.99726866, 0, markerIcon],
-            [locationData('listing-single.html', 'images/gal/4.jpg', 'Grand Hero Palace', "W 85th St, NY, USA ", "$ 120", "4"), 40.76221766, -73.96511769, 1, markerIcon],
+            [locationData('listing-single.html', 'images/gal/1.jpg', 'Grand Hero Palace', "W 85th St, NY, USA ", "$ 120", "4"), 40.76221766, -73.96511769, 1, markerIcon],
             [locationData('listing-single.html', 'images/gal/6.jpg', 'Park Central', "40 Journal Square Plaza, NJ,  USA", "$ 50", "5"), 40.88496706, -73.88191222, 2, markerIcon],
             [locationData('listing-single.html', 'images/gal/2.jpg', 'Holiday Home', "75 Prince St,  NY, USA", "$ 50", "3"), 40.72228267, -73.99246214, 3, markerIcon],
-            [locationData('listing-single.html', 'images/gal/3.jpg', 'Gold Plaza Hotel', "34-42 Montgomery St, New York, NY", "$ 210", "5"), 40.94982541, -73.84357452, 4, markerIcon],
-            [locationData('listing-single.html', 'images/gal/5.jpg', 'Moonlight Hotel', "70 Bright St, Jersey City, NJ", "$ 105", "4"), 40.90261483, -74.15737152, 5, markerIcon],
+            [locationData('listing-single.html', 'images/gal/2.jpg', 'Gold Plaza Hotel', "34-42 Montgomery St, New York, NY", "$ 210", "5"), 40.94982541, -73.84357452, 4, markerIcon],
+            [locationData('listing-single.html', 'images/gal/3.jpg', 'Moonlight Hotel', "70 Bright St, Jersey City, NJ", "$ 105", "4"), 40.90261483, -74.15737152, 5, markerIcon],
             [locationData('listing-single.html', 'images/gal/1.jpg', 'Zebra Premium Hotel', "123 School St. Lynchburg, NY ", "$ 115", "3"), 40.79145927, -74.08252716, 6, markerIcon],
             [locationData('listing-single2.html', 'images/gal/7.jpg', 'Fancy Hotel', "Mt Carmel Pl, New York, NY", "$70", "5"), 40.58423508, -73.96099091, 7, markerIcon],
             [locationData('listing-single2.html', 'images/gal/9.jpg', 'Luxary Hotel-Spa', "1-30 Hunters Point Ave, Long Island City, NY", "$320", "5"), 40.58110616, -73.97678375, 8, markerIcon],
-            [locationData('listing-single3.html', 'images/gal/4.jpg', 'NY Plaza Hotel', "726-1728 2nd Ave, New York, NY", "$ 120", "5"), 40.73112881, -74.07897948, 9, markerIcon],
-            [locationData('listing-single3.html', 'images/gal/5.jpg', 'Apartment Hotel-Spa', "9443 Fairview Ave, North Bergen, NJ", "$ 210", "4"), 40.67386831, -74.10438536, 10, markerIcon],
+            [locationData('listing-single3.html', 'images/gal/1.jpg', 'NY Plaza Hotel', "726-1728 2nd Ave, New York, NY", "$ 120", "5"), 40.73112881, -74.07897948, 9, markerIcon],
+            [locationData('listing-single3.html', 'images/gal/3.jpg', 'Apartment Hotel-Spa', "9443 Fairview Ave, North Bergen, NJ", "$ 210", "4"), 40.67386831, -74.10438536, 10, markerIcon],
         ];
 	    //   Map Infoboxes end ------------------
         var map = new google.maps.Map(document.getElementById('map-main'), {

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/epictours.iml" filepath="$PROJECT_DIR$/.idea/epictours.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../toursbyepic/.idea/toursbyepic.iml" filepath="$PROJECT_DIR$/../toursbyepic/.idea/toursbyepic.iml" />
     </modules>
   </component>
 </project>
