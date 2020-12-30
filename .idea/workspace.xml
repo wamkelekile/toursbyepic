@@ -11,19 +11,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="106d7cde-f175-44ca-9bc0-63e311e3884a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/images/city/2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/epictours.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/toursbyepic.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/90d3fa4a-49d0-4ae3-af86-4a57f4fac22f.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/90d3fa4a-49d0-4ae3-af86-4a57f4fac22f/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b6325a5c-d412-4611-ba4a-73c3bb48d477.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b6325a5c-d412-4611-ba4a-73c3bb48d477/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/custom.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/all/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/city/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/city/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/gal/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/gal/1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/maps.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/maps.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/home/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/includes/footer.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/includes/footer.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/tour/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/tour/show.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/hosts.ini" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/hosts.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/playbook.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/playbook.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,7 +159,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.data.extractors.current.export.id" value="Comma-separated (CSV)_id" />
     <property name="database.data.extractors.current.id" value="Comma-separated (CSV)_id" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/images/partners" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="Symfony2.SettingsForm" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -194,7 +188,9 @@
       <workItem from="1609010723741" duration="2365000" />
       <workItem from="1609013116570" duration="668000" />
       <workItem from="1609014339630" duration="13324000" />
-      <workItem from="1609059488459" duration="63926000" />
+      <workItem from="1609059488459" duration="72511000" />
+      <workItem from="1609363602240" duration="1690000" />
+      <workItem from="1609365626032" duration="2078000" />
     </task>
     <servers />
   </component>
