@@ -3,9 +3,10 @@
 
   vars:
     ansible_python_interpreter: /usr/bin/python3
-    server_name: mootube.l
+    server_name: toursbyepic.com
     symfony_root_dir: /var/www/toursbyepic
     symfony_web_dir: "{{ symfony_root_dir }}/public"
+    symfony_console_path: "{{ symfony_root_dir }}/bin/console"
 
   tasks:
     - ping: ~
@@ -68,6 +69,13 @@
         name: mysql-server
         state: latest
 
+    - name: Create database user with name with all database privileges
+      mysql_user:
+        name: kibolabs
+        password: "intelcorei5"
+        priv: '*.*:ALL'
+        state: present
+
     - name: Add PHP 7 PPA repository
       become: true
       apt_repository:
@@ -118,6 +126,13 @@
       composer:
         working_dir: "{{ symfony_root_dir }}"
         no_dev: no
+
+    # Symfony console commands
+    - name: Create DB if not exists
+      command: '{{ symfony_console_path }} doctrine:database:create --if-not-exists'
+
+    - name: Execute migrations
+      command: '{{ symfony_console_path }} doctrine:migrations:migrate --no-interaction'
 
   handlers:
     - name: Restart Nginx

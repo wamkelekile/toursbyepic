@@ -11,12 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="106d7cde-f175-44ca-9bc0-63e311e3884a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/90d3fa4a-49d0-4ae3-af86-4a57f4fac22f.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/90d3fa4a-49d0-4ae3-af86-4a57f4fac22f/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b6325a5c-d412-4611-ba4a-73c3bb48d477.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b6325a5c-d412-4611-ba4a-73c3bb48d477/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible/hosts.ini" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/hosts.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ansible/playbook.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/playbook.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -190,7 +185,9 @@
       <workItem from="1609014339630" duration="13324000" />
       <workItem from="1609059488459" duration="72511000" />
       <workItem from="1609363602240" duration="1690000" />
-      <workItem from="1609365626032" duration="2078000" />
+      <workItem from="1609365626032" duration="2915000" />
+      <workItem from="1609430849986" duration="9905000" />
+      <workItem from="1609686850801" duration="1128000" />
     </task>
     <servers />
   </component>
